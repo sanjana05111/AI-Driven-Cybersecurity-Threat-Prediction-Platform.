@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+google-generativeai
+scapy
+pandas
+supabase
+python-multipart
+python-dotenv
+psutil
+virustotal-python
