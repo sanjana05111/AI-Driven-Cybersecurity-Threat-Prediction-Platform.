@@ -80,8 +80,7 @@ AI-Driven-Cybersecurity-Threat-Prediction-Platform/
 ## 📹 Video Demonstration: 
 
 
-
-Uploading Recording 2026-01-07 232555 (1).mp4…
+https://github.com/user-attachments/assets/af71272a-0907-4499-bc2d-84462264d5f5
 
 
 ## 🚀 Deployment Link:
