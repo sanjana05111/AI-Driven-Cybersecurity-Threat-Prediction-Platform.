@@ -5,7 +5,7 @@ An AI-powered cybersecurity platform that monitors network activity, detects pot
 
 This project demonstrates how Artificial Intelligence, backend APIs, and modern frontend technologies can be combined to improve threat detection and cybersecurity decision-making.
 
-**Project Description**
+##**Project Description**
 
 Traditional cybersecurity systems often depend on manual monitoring and static rules.
 This platform introduces an AI-driven approach that helps identify suspicious behavior, analyze threats, and visualize network security data in real time.
