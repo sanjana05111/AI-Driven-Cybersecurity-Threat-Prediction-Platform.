@@ -1,108 +1,90 @@
-# AI-Driven-Cybersecurity-Threat-Prediction-Platform.
-AI-Driven Cybersecurity Threat Prediction Platform 🔐
+# AI-Based-Cyber-Security-Threats-Prediction-AI-Agent
 
-An AI-powered cybersecurity platform that monitors network activity, detects potential threats, and provides real-time insights through an interactive dashboard.
+## 🔍 Project Statement: 
+The project aims to develop agentic AI that acts as tireless guardians of network security. These AI agents will autonomously monitor network traffic, detect anomalies, and respond to cyber threats in real time without constant human oversight. This approach could significantly enhance an organization's security posture and free up human experts to focus on more complex security challenges.
 
-This project demonstrates how Artificial Intelligence, backend APIs, and modern frontend technologies can be combined to improve threat detection and cybersecurity decision-making.
+## 🎯 Outcomes:
 
-##**Project Description**
+ * Autonomous monitoring of network traffic for enhanced security.
+ * Real-time detection and response to cyber threats.
+ * Reduction in the workload of human security experts.
+ * Improved overall organizational resilience against digital threats.
 
-Traditional cybersecurity systems often depend on manual monitoring and static rules.
-This platform introduces an AI-driven approach that helps identify suspicious behavior, analyze threats, and visualize network security data in real time.
+## ⚙️ Instructions
 
-The system is designed for:
+### Prerequisites
+- Node.js installed
+- Python installed
+- Supabase account
+- Git installed
+- Npcap installed
 
-Faster threat identification
+### Quick Start (Windows)
+1. Run `start.bat` to launch both backend and frontend services.
 
-Reduced human effort
+### Manual Setup
 
-Better visibility into network activity
+#### Backend
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   # Windows:
+   venv\Scripts\activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the server:
+   ```bash
+   uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
+   ```
 
-🚀 Features
+#### Frontend
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-Real-time network threat monitoring
+## 📂 Project Structure
 
-AI-based threat analysis
-
-Interactive security dashboard
-
-PCAP file analysis
-
-Attack visualization
-
-AI chat assistant for cybersecurity queries
-
-VirusTotal API integration
-
-🛠️ Tech Stack
-Backend
-
-Python
-
-FastAPI
-
-SQL Database
-
-REST APIs
-
-Frontend
-
-React
-
-TypeScript
-
-Vite
-
-Data & Analysis
-
-Jupyter Notebooks
-
-Python & SQL
-
-📂 Project Structure
+```
 AI-Driven-Cybersecurity-Threat-Prediction-Platform/
-│
-├── backend/        # API and server logic
-├── frontend/       # Web dashboard
-├── notebooks/      # Python & SQL analysis
-├── architecture.png
-├── requirements.txt
-├── start.bat
-└── README.md
+├── backend/                 # Python FastAPI Backend
+│   ├── src/                 # Source code (main.py, routers, services)
+│   ├── requirements.txt     # Python dependencies
+│   └── schema.sql           # Database schema
+├── frontend/                # React Vite Frontend(TypeScript)
+│   ├── src/                 # Source code
+│   ├── package.json         # JS dependencies
+│   └── vite.config.ts       # Vite configuration
+├── Architecture.png         # System Architecture Diagram
+├── Model_Research.pdf       # Research documentation
+├── Python_Task.ipynb        # Python analysis notebook
+├── SQL_Task.ipynb           # SQL analysis notebook
+└── start.bat                # Quick start script
+```
 
-⚙️ Installation & Setup
-1. Clone the Repository
-git clone https://github.com/your-username/AI-Driven-Cybersecurity-Threat-Prediction-Platform.git
-cd AI-Driven-Cybersecurity-Threat-Prediction-Platform
-
-2. Backend Setup
-cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+## 📹 Video Demonstration: 
 
 
-Backend runs at:
 
-http://localhost:8000
-
-3. Frontend Setup
-cd frontend
-npm install
-npm run dev
+Uploading Recording 2026-01-07 232555 (1).mp4…
 
 
-Frontend runs at:
+## 🚀 Deployment Link:
 
-http://localhost:5173
+[AI-Based-Cyber-Security-Threats-Prediction-AI-Agent](https://cyberspy-jet.vercel.app/)
 
-#📊 System Overview
-
-Network data is collected
-
-AI models analyze traffic patterns
-
-Threat intelligence APIs enrich data
-
-Results are processed by backend APIs
-
-Dashboard displays real-time insights
